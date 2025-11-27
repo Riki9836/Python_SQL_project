@@ -1,0 +1,12 @@
+mysql> create database medical;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use medical;
+Database changed
+mysql> CREATE TABLE IF NOT EXISTS DOC(id INT AUTO_INCREMENT PRIMARY KEY, Doc_Name char(30), Dept char(15), Speciality char(15));
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> create table if not exists Booking(App_id int auto_increment Primary key, Patient_Name char(30), Dept char(15), Booking_Time DateTime);
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>
